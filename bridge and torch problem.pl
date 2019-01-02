@@ -1,5 +1,3 @@
-% author: ZhaorongWang  #101132604
-
 speed(legolas, 1).
 speed(aragorn, 3).
 speed(gilmi, 5).
