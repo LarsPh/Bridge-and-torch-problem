@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "save": "^2.3.2",
+    "socket.io": "^2.1.1"
+  }
+}
