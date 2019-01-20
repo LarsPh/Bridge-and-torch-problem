@@ -61,12 +61,10 @@ try(Bound, State, States, Solution) :-
   append(States, [NState], NStates),
   try(Bound, NState, NStates, Solution).
 
-% anwser the first question
 passUnder(Time) :-
   InitState = [[legolas, aragorn, gilmi, gandalf], [], left, 0],
   try(Time, InitState, [InitState], _).
 
-% anwser the second question
 how(Time, Solution) :-
   InitState = [[legolas, aragorn, gilmi, gandalf], [], left, 0],
   try(Time, InitState, [InitState], Solution).
